@@ -29,3 +29,6 @@ b_list[0]()
 
 c_list = [1]
 c_list[0]()
+
+def annotated(param: int):
+    param()
